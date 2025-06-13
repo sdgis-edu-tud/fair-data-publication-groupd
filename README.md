@@ -102,7 +102,7 @@ This research project was supported by the teachers of the course Applied Spatia
 
 # 2. METHODOLOGICAL INFORMATION
 ## 2.1 Research questions, methods and envisioned uses
-Our research question is that how an integrated urban stream restoration project in Jablonec nad Nisou balance diverse stakeholder interests by identifying areas where improvements in biodiversity, flood risk reduction and quality of life can take place. And we mainly use S-MCDA to classify the data and then apply K means with the normalized QGIS data to construct typology.
+Our research question is that how an integrated urban stream restoration project in Jablonec nad Nisou balance diverse stakeholder interests by identifying areas where improvements in biodiversity, flood risk reduction and quality of life can take place. And we mainly use MCDA to classify the data and then apply K means with the normalized QGIS data to construct typology.
 
 ### 2.1.1 Research question 1: Where can the ecological quality of the stream area be enhanced?
 - Biodiversity value (quan)
