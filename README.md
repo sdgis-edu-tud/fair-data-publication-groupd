@@ -124,7 +124,8 @@ Our research question is that how an integrated urban stream restoration project
 - Evaluate the accessibility of each section of the stream, as well as the comfort and convenience for people to use
 
 ## 2.2 Methods for processing the data
-- S-MCDA to determine which data have a higher weight and are screened
+- MCDA to select the influencing factors according to the research questions and assign weights for them in order to make the final decision
+- Fuzzy AHP to determine which data has a higher weight
 - K means to construct typology of data
 
 ## 2.3 Instrument- or software-specific information
