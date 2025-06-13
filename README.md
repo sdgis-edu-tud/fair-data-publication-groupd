@@ -25,66 +25,112 @@
 # 1. GENERAL INFORMATION
 
 ## 1.1 Title of Dataset
-Insert title here
+Normalized Data on Biodiversity, Climate Adaptation & Quality of Life Along The Bílá Nisa Stream in Jablonec nad Nisou
 
 ## 1.2 Dataset description
-This dataset contains qualitative and/or quantitative data on ... Context for the research project... Additional details about the project can be accessed [here](https://...).
+This dataset contains qualitative and quantitative data on biodiversity, climate adaptation and quality of life. The data is normalized (values range from 0-1, indicating good-bad, high-low and otherwise specified). The data is selected with a 100 meter radius along the Bílá Nisa stream. This data is then organized on a grid of 100x100 meters, with a more detailed grid of 50x50 meters further overlayed in the inner city borders of Jablonec nad Nisou.
+
+The research project was conducted for a TU Delft Urbanism MSc elective course Applied Spatial Analytics for Sustainable Urban Development (course code ARFW0501). The course is based on the ReBioClim project, funded by the Interreg Central Europe Program, which focuses on revitalizing small urban streams in European cities to enhance biodiversity, mitigate climate change effects, and improve urban living conditions. Running from June 2024 to January 2027, the project addresses the challenges of urban stream restoration in four Central European cities: Dresden, Jablonec nad Nisou, Poznan and Senica. The case study of this dataset is Jablonec nad Nisou.
+
+Additional details about the project can be accessed [here](https://www.ioer.de/en/projects/rebioclim).
 
 ## 1.3 Author Information
-A. Principal Investigator  
-- Name: 
-- Institution: 
-- Address: 
-- Email: 
 
-B. Associate or Co-investigator
-- Name: 
-- Institution: 
-- Address: 
-- Email:
+A. Investigator (Student 1)  
+- Name: Finn van Asch
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: f.w.vanasch@student.tudelft.nl
 
-C. Associated study personnel 
-- ...
-- ...
+B. Investigator (Student 2)  
+- Name: Frederick Auer
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: f.j.auer@student.tudelft.nl
+
+C. Investigator (Student 3)  
+- Name: Matthijs Jerez Nova
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: m.r.jereznova@student.tudelft.nl
+
+D. Investigator (Student 4)  
+- Name: Ruofan Lin
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: r.lin@student.tudelft.nl
+
+E. Investigator (Student 5)  
+- Name: Ula Nina Kunigėlytė
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: u.n.kunigelyte@student.tudelft.nl
+
+F. Associated study personnel (Tutor 1)
+- Name: Daniele Cannatella
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: d.cannatella@tudelft.nl
+
+G. Associated study personnel (Tutor 2)
+- Name: Claudiu Forgaci
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: c.forgaci@tudelft.nl
+
+H. Associated study personnel (Tutor 3)
+- Name: Yehan Wu
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: Y.Wu-13@tudelft.nl
 
 ## 1.4 Dates of data collection
-- Survey 1: YYYY-MM-DD
-- Survey 2: YYYY-MM-DD
+The secondary data was collected and treated between May and June, 2025.
 
 ## 1.5 Geographic location of data collection
-...
+- Jablonec nad Nisou, Czech Republic, Europe
 
 ## 1.6 Keywords
-..., ..., ...
+Urban Stream, Restoration, ReBioClim, Biodiversity, Climate Adaptation, Quality of Life, Bílá Nisa, Jablonec nad Nisou, Czech Republic
 
 ## 1.7 Language
-...
+English
 
 ## 1.8 Information about funding sources that supported the collection of the data
-This research project was funded by...
+This research project was supported by the teachers of the course Applied Spatial Analytics for Sustainable Urban Development and non-financial educational resources provided by TU Delft.
+
 
 # 2. METHODOLOGICAL INFORMATION
 ## 2.1 Research questions, methods and envisioned uses
-Insert brief overarching summary of methods...
+Our research question is that how an integrated urban stream restoration project in Jablonec nad Nisou balance diverse stakeholder interests by identifying areas where improvements in biodiversity, flood risk reduction and quality of life can take place. And we mainly use MCDA to classify the data and then apply K means with the normalized QGIS data to construct typology.
 
-### 2.1.1 Research question 1: ...?
-- Instrument 1 (quan/qual)
-- Instrument 2 (quan/qual)
+### 2.1.1 Research question 1: Where can the ecological quality of the stream area be enhanced?
+- Biodiversity value (quan)
+- Biodiverse areas at risk (qual)
+- Areas providing biodiversity opportunities (qual)
 
-### 2.1.2 Research question 2: ...?
-- Instrument 1 (quan/qual)
-- Instrument 2 (quan/qual)
+### 2.1.2 Research question 2: Which areas are the most in need for flood protection?
+- Flood risk (qual)
+- Surface temperature (quan)
+- Vegetation health (qual)
+### 2.1.3 Research question 3: Where can improvements in quality of life balance stakeholder interests in areas around the stream?
+- Public amenities (quan)
+- Accessibility of stream (qual)
+- Physical comfort level (quan)
 
 ### 2.1.3 Envisioned uses of the dataset
-- ...
-- ...
+- Evaluate the environmental attributes around the stream and distinguish the habitat quality grades
+- Support climate-adaptive stream design by identifying high flood-risk areas
+- Evaluate the accessibility of each section of the stream, as well as the comfort and convenience for people to use
 
 ## 2.2 Methods for processing the data
-- ...
-- ...
+- MCDA to select the influencing factors according to the research questions and assign weights for them in order to make the final decision
+- Fuzzy AHP to determine which data has a higher weight
+- K means to construct typology of data
 
 ## 2.3 Instrument- or software-specific information
-- Software version X.X was used for ...
+- QGIS version 3.34.12 was used for making maps
+- R studio version 4.5.0 was used for editing reports and gathering products
 
 # 3. FILE OVERVIEW
 Are there multiple versions of the dataset? Yes/No
