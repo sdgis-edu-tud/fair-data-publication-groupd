@@ -25,43 +25,80 @@
 # 1. GENERAL INFORMATION
 
 ## 1.1 Title of Dataset
-Insert title here
+Normalized Data on Biodiversity, Climate Adaptation & Quality of Life Along The Bílá Nisa Stream in Jablonec nad Nisou
 
 ## 1.2 Dataset description
-This dataset contains qualitative and/or quantitative data on ... Context for the research project... Additional details about the project can be accessed [here](https://...).
+This dataset contains qualitative and quantitative data on biodiversity, climate adaptation and quality of life. The data is normalized (values range from 0-1, indicating good-bad, high-low and otherwise specified). The data is selected with a 100 meter radius along the Bílá Nisa stream. This data is then organized on a grid of 100x100 meters, with a more detailed grid of 50x50 meters further overlayed in the inner city borders of Jablonec nad Nisou.
+
+The research project was conducted for a TU Delft Urbanism MSc elective course Applied Spatial Analytics for Sustainable Urban Development (course code ARFW0501). The course is based on the ReBioClim project, funded by the Interreg Central Europe Program, which focuses on revitalizing small urban streams in European cities to enhance biodiversity, mitigate climate change effects, and improve urban living conditions. Running from June 2024 to January 2027, the project addresses the challenges of urban stream restoration in four Central European cities: Dresden, Jablonec nad Nisou, Poznan and Senica. The case study of this dataset is Jablonec nad Nisou.
+
+Additional details about the project can be accessed [here](https://www.ioer.de/en/projects/rebioclim).
 
 ## 1.3 Author Information
-A. Principal Investigator  
+
+A. Investigator (Student 1)  
+- Name: Finn van Asch
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: f.w.vanasch@student.tudelft.nl
+
+B. Investigator (Student 2)  
+- Name: Frederick Auer
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: f.j.auer@student.tudelft.nl
+
+C. Investigator (Student 3)  
+- Name: Matthijs Jerez Nova
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: m.r.jereznova@student.tudelft.nl
+
+D. Investigator (Student 4)  
+- Name: Ruofan Lin
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: r.lin@student.tudelft.nl
+
+E. Investigator (Student 5)  
 - Name: Ula Nina Kunigėlytė
-- Institution: 
-- Address: 
-- Email: 
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: u.n.kunigelyte@student.tudelft.nl
 
-B. Associate or Co-investigator
-- Name: 
-- Institution: 
-- Address: 
-- Email:
+F. Associated study personnel (Tutor 1)
+- Name: Daniele Cannatella
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: d.cannatella@tudelft.nl
 
-C. Associated study personnel 
-- ...
-- ...
+G. Associated study personnel (Tutor 2)
+- Name: Claudiu Forgaci
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: c.forgaci@tudelft.nl
+
+H. Associated study personnel (Tutor 3)
+- Name: Yehan Wu
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: Y.Wu-13@tudelft.nl
 
 ## 1.4 Dates of data collection
-- Survey 1: YYYY-MM-DD
-- Survey 2: YYYY-MM-DD
+The secondary data was collected and treated between May and June, 2025.
 
 ## 1.5 Geographic location of data collection
-...
+- Jablonec nad Nisou, Czech Republic, Europe
 
 ## 1.6 Keywords
-..., ..., ...
+Urban Stream, Restoration, ReBioClim, Biodiversity, Climate Adaptation, Quality of Life, Bílá Nisa, Jablonec nad Nisou, Czech Republic
 
 ## 1.7 Language
-...
+English
 
 ## 1.8 Information about funding sources that supported the collection of the data
-This research project was funded by...
+This research project was supported by the teachers of the course Applied Spatial Analytics for Sustainable Urban Development and non-financial educational resources provided by TU Delft.
+
 
 # 2. METHODOLOGICAL INFORMATION
 ## 2.1 Research questions, methods and envisioned uses
