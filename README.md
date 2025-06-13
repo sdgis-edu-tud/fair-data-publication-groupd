@@ -113,7 +113,6 @@ Our research question is that how an integrated urban stream restoration project
 - Flood risk (qual)
 - Surface temperature (quan)
 - Vegetation health (qual)
-- 
 ### 2.1.3 Research question 3: Where can improvements in quality of life balance stakeholder interests in areas around the stream?
 - Public amenities (quan)
 - Accessibility of stream (qual)
