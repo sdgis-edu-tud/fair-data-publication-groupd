@@ -102,26 +102,35 @@ This research project was supported by the teachers of the course Applied Spatia
 
 # 2. METHODOLOGICAL INFORMATION
 ## 2.1 Research questions, methods and envisioned uses
-Insert brief overarching summary of methods...
+Our research question is that how an integrated urban stream restoration project in Jablonec nad Nisou balance diverse stakeholder interests by identifying areas where improvements in biodiversity, flood risk reduction and quality of life can take place. And we mainly use S-MCDA to classify the data and then apply K means with the normalized QGIS data to construct typology.
 
-### 2.1.1 Research question 1: ...?
-- Instrument 1 (quan/qual)
-- Instrument 2 (quan/qual)
+### 2.1.1 Research question 1: Where can the ecological quality of the stream area be enhanced?
+- Biodiversity value (quan)
+- Biodiverse areas at risk (qual)
+- Areas providing biodiversity opportunities (qual)
 
-### 2.1.2 Research question 2: ...?
-- Instrument 1 (quan/qual)
-- Instrument 2 (quan/qual)
+### 2.1.2 Research question 2: Which areas are the most in need for flood protection?
+- Flood risk (qual)
+- Surface temperature (quan)
+- Vegetation health (qual)
+- 
+### 2.1.3 Research question 3: Where can improvements in quality of life balance stakeholder interests in areas around the stream?
+- Public amenities (quan)
+- Accessibility of stream (qual)
+- Physical comfort level (quan)
 
 ### 2.1.3 Envisioned uses of the dataset
-- ...
-- ...
+- Evaluate the environmental attributes around the stream and distinguish the habitat quality grades
+- Support climate-adaptive stream design by identifying high flood-risk areas
+- Evaluate the accessibility of each section of the stream, as well as the comfort and convenience for people to use
 
 ## 2.2 Methods for processing the data
-- ...
-- ...
+- S-MCDA to determine which data have a higher weight and are screened
+- K means to construct typology of data
 
 ## 2.3 Instrument- or software-specific information
-- Software version X.X was used for ...
+- QGIS version 3.34.12 was used for making maps
+- R studio version 4.5.0 was used for editing reports and gathering products
 
 # 3. FILE OVERVIEW
 Are there multiple versions of the dataset? Yes/No
