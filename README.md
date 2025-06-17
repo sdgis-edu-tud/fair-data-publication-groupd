@@ -199,26 +199,26 @@ The following tables (csv files) employ a foreign key to refer to the primary ke
 
 # 5. SHARING/ACCESS INFORMATION
 ## 5.1 Licenses/restrictions placed on the data:
-...
+CC BY 4.0
 
 ## 5.2 Links to other resources:
 
 ### 5.2.1 Links to publications that cite or use the data:
-...
+- [Targeted Urban Stream Renewal: The Case of Bílá Nisa in Jablonec nad Nisou](https://github.com/sdgis-edu-tud/report-asa2025-groupd.git)
 
 ### 5.2.2 Links to other publicly accessible locations of the data: 
-...
+- N/A
 
 ### 5.2.3 Links/relationships to ancillary data sets: 
-...
+- N/A
 
 ### 5.2.4 Links to publicly accessible scripts for analysis of the dataset:
-- [Link title](link url)
+- [Targeted Urban Stream Renewal: The Case of Bílá Nisa in Jablonec nad Nisou](https://github.com/sdgis-edu-tud/report-asa2025-groupd.git)
 
 ### 5.2.5 Was data derived from another source?
-Yes/No
+Yes
 
 ## 5.3 Recommended citation for this dataset:
-...
+van Asch, F., Auer, F., Nova, M. J., Lin, R. & Kunigėlytė, U. N. (2025). Targeted Urban Stream Renewal: The Case of Bílá Nisa in Jablonec nad Nisou. TU Delft Faculty of Architecture & The Built Environment. Retrieved from https://github.com/sdgis-edu-tud/report-asa2025-groupd.git
 
 This README.md file template was generated on 2022-04-19 by Claudiu Forgaci and Adele Therias according to the 4TU.ResearchData [Guidelines for creating a README file](https://data.4tu.nl/info/en/use/publish-cite/upload-your-data-in-our-data-repository) and the Cornell University template [Guide to writing "readme" style metadata](https://cornell.app.box.com/v/ReadmeTemplate) and is licensed under CC BY 4.0
