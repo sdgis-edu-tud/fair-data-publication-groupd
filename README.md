@@ -167,21 +167,21 @@ N/A
 
 3. Variable List:
 
-"variable_name"
+"N_round_m_floodpplain biotope value"
 - Full name: Floodplain Biotope Value
 - Description: Data showeing cover areas with biotope value along the Bílá Nisa
 - Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
 - Number of missing values:
 
-"variable_name"
+"n_weighed_uniq_bio_hab"
 - Full name: Diversity of Natural Habitats
 - Description: Data showing the relative diversity of natural habitats along the Bílá Nisa
 - Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
 - Number of missing values:
 
-"variable_name"
+"Percentage_habitat_n"
 - Full name: Proportion of Natural Habitat Area
 - Description: Data showing the proportion of natural habitat area per cell along the Bílá Nisa
 - Type of variable: quantitative normalized
@@ -195,21 +195,28 @@ N/A
 - Unit of measurement: 0-1 (low to high)
 - Number of missing values: 
 
-"variable_name"
+"Buildings_clipped_intersected_NEW_pc"
 - Full name: Proportion of Built-up Area
 - Description: Data showing the proportion of built area along the Bílá Nisa
 - Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
+- Number of missing values:
+
+"Buildings clipped intersected new pc (inverted)"
+- Full name: Proportion of Built-up Area inverted value
+- Description: Data showing the proportion of built area along the Bílá Nisa inverted value (1-x)
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
 - Number of missing values: 
 
-"variable_name"
+"Normalized_eco_corr_overlap_area"
 - Full name: Ecological corridors
 - Description: Data showing the proportional area of ecological corridors along the Bílá Nisa
 - Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
 - Number of missing values: 
 
-"variable_name"
+"Floodplain_restoration_rounded"
 - Full name: Potential for Natural Floodplain Restoration
 - Description:
 - Type of variable: quantitative normalized
@@ -233,35 +240,35 @@ N/A
     ->  high flood risk (1): built-up/paved surfaces
 - Number of missing values:
 
-"variable_name"
+"Imper_norm"
 - Full name: Impervious Surfaces
 - Description:
 - Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
 - Number of missing values:
 
-"variable_name"
+"LST_norm"
 - Full name: Night Land Surface Temperature
 - Description:
 - Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
 - Number of missing values:
 
-"variable_name"
+"NDVI inverted"
 - Full name: Normalized Difference Vegetation Index
-- Description:
+- Description: NDVI inverted value (1-x)
 - Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
 - Number of missing values:
 
-"variable_name"
+"Norm Public Green"
 - Full name: Access To Public Green Space
 - Description:
 - Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
 - Number of missing values:
 
-"variable_name"
+"Norm public amenities"
 - Full name: Acess To Public Amenities
 - Description:
 - Type of variable: quantitative normalized
@@ -282,9 +289,16 @@ N/A
 - Unit of measurement: 0-1 (low to high)
 - Number of missing values:
 
-"variable_name"
+"Combined Air Pollution"
 - Full name: Air Pollution
 - Description:
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
+- Number of missing values:
+
+ "Combined Air Pollution Inverted"
+- Full name: Air Pollution Inverted
+- Description: Inverted air pollution value (1-x)
 - Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
 - Number of missing values:
