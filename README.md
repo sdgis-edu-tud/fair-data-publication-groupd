@@ -133,6 +133,7 @@ Our research question is that how an integrated urban stream restoration project
 - QGIS version 3.34.12 was used for making maps
 - R studio version 4.5.0 was used for editing reports and gathering products
 
+
 # 3. FILE OVERVIEW
 There is one version of this dataset.
 
@@ -150,6 +151,7 @@ Excel file: .CSV dataset
 
 ### 3.3.2 Naming conventions
 N/A
+
 
 # 4. DATA-SPECIFIC INFORMATION
 
@@ -181,15 +183,15 @@ N/A
 
 "variable_name"
 - Full name: Proportion of Natural Habitat Area
-- Description:
+- Description: Data showing the proportion of natural habitat area per cell along the Bílá Nisa
 - Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
 - Number of missing values: 
 
 "variable_name"
 - Full name: Weighed Road Segment Length
-- Description:
-- Type of variable: 
+- Description: Road lenght segment weighed for speed limit, showing relative environmental impact of road infrastructure along the Bílá Nisa
+- Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
 - Number of missing values: 
 
