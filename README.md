@@ -113,6 +113,7 @@ Our research question is that how an integrated urban stream restoration project
 - Flood risk (qual)
 - Surface temperature (quan)
 - Vegetation health (qual)
+- 
 ### 2.1.3 Research question 3: Where can improvements in quality of life balance stakeholder interests in areas around the stream?
 - Public amenities (quan)
 - Accessibility of stream (qual)
@@ -133,69 +134,171 @@ Our research question is that how an integrated urban stream restoration project
 - R studio version 4.5.0 was used for editing reports and gathering products
 
 # 3. FILE OVERVIEW
-Are there multiple versions of the dataset? Yes/No
+There is one version of this dataset.
 
 ## 3.1 File List
 
-### 3.1.1 Data category A
-- "filename.extension": brief description of file
-
-### 3.1.2 Data category B
-- "filename.extension": brief description of file
-
-### 3.1.3 Data category C
-- "filename.extension": brief description of file
-
-### 3.1.4 Data category D
-- "filename.extension": brief description of file
+### 3.1.1 Urban Stream Restoration: Bílá Nisa Data
+- "UrbanStreamRestoration_Bila_Nisa.csv": Normalized Data on Biodiversity, Climate Adaptation & Quality of Life Along The Bílá Nisa Stream in Jablonec nad Nisou
 
 ## 3.2 Relationship between files:
-The following tables (csv files) employ a foreign key to refer to the primary key (unique identifier) in one or more other table(s):
-
-"filename.extension"
-- abc used as foreign key to "otherfile.extension"
+N/A
 
 ## 3.3 File formats and naming conventions
 ### 3.3.1 File formats
-- extension - type of data
+Excel file: .CSV dataset
 
 ### 3.3.2 Naming conventions
-- files named lower case, spaces replaced with dashes (dash-case)
-- in tabular data, variable names snake case
+N/A
 
 # 4. DATA-SPECIFIC INFORMATION
 
-- Missing data code: NA
+- Missing data code: N/A
 - Not Applicable: N/A
 
-## 4.1 Data Category A
+## 4.1 Urban Stream Restoration: Bílá Nisa Data
 
-### 4.1.1 filename.extension
-1. Number of variables: 
+### 4.1.1 UrbanStreamRestoration_Bila_Nisa.csv
+1. Number of variables: 18
 
-2. Number of cases/rows: 
+2. Number of cases/rows: 666
 
 3. Variable List:
 
 "variable_name"
-- Full name: 
-- Description: 
-- Type of variable: 
-- Unit of measurement:
+- Full name: Floodplain Biotope Value
+- Description: Data showeing cover areas with biotope value along the Bílá Nisa
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
+- Number of missing values:
+
+"variable_name"
+- Full name: Diversity of Natural Habitats
+- Description: Data showing the relative diversity of natural habitats along the Bílá Nisa
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
+- Number of missing values:
+
+"variable_name"
+- Full name: Proportion of Natural Habitat Area
+- Description:
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
 - Number of missing values: 
 
-4. Specialised formats or other abbreviations used: 
+"variable_name"
+- Full name: Weighed Road Segment Length
+- Description:
+- Type of variable: 
+- Unit of measurement: 0-1 (low to high)
+- Number of missing values: 
 
-5. Total file size: 
+"variable_name"
+- Full name: Proportion of Built-up Area
+- Description: Data showing the proportion of built area along the Bílá Nisa
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
+- Number of missing values: 
 
-## 4.2 Data Category B
-...
+"variable_name"
+- Full name: Ecological corridors
+- Description: Data showing the proportional area of ecological corridors along the Bílá Nisa
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
+- Number of missing values: 
 
-## 4.3 Data Category C
-...
+"variable_name"
+- Full name: Potential for Natural Floodplain Restoration
+- Description:
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
+- Number of missing values: 
 
-## 4.4 Data Category D
-...
+"variable_name"
+- Full name: Zones of Protected Natural Areas
+- Description:
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high protection zone)
+- Number of missing values:
+
+"variable_name"
+- Full name: Flood Impact Zones in Floodplains
+- Description:
+- Type of variable: qualitative normalized
+- Unit of measurement: 0-1 (low to high), where:
+    ->  low flood impact (0): natural forest/wetland
+    ->  some flood impact (0.5): arable land/grassland
+    ->  high flood risk (1): built-up/paved surfaces
+- Number of missing values:
+
+"variable_name"
+- Full name: Impervious Surfaces
+- Description:
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
+- Number of missing values:
+
+"variable_name"
+- Full name: Night Land Surface Temperature
+- Description:
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
+- Number of missing values:
+
+"variable_name"
+- Full name: Normalized Difference Vegetation Index
+- Description:
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
+- Number of missing values:
+
+"variable_name"
+- Full name: Access To Public Green Space
+- Description:
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
+- Number of missing values:
+
+"variable_name"
+- Full name: Acess To Public Amenities
+- Description:
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
+- Number of missing values:
+
+"variable_name"
+- Full name: Access to Stream
+- Description:
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
+- Number of missing values:
+
+"variable_name"
+- Full name: Access to Public Transport
+- Description:
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
+- Number of missing values:
+
+"variable_name"
+- Full name: Air Pollution
+- Description:
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
+- Number of missing values:
+
+"variable_name"
+- Full name: Percentage of Tree Cover
+- Description:
+- Type of variable: quantitative normalized
+- Unit of measurement: 0-1 (low to high)
+- Number of missing values:
+
+4. Specialised formats or other abbreviations used:
+N/A
+
+6. Total file size:
+
 
 # 5. SHARING/ACCESS INFORMATION
 ## 5.1 Licenses/restrictions placed on the data:
