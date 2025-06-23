@@ -132,7 +132,7 @@ Our research question is that how an integrated urban stream restoration project
 
 
 # 3. FILE OVERVIEW
-There are two versions of this dataset.
+There is one version of this dataset.
 
 ## 3.1 File List
 
@@ -157,8 +157,8 @@ N/A
 
 ## 4.1 Urban Stream Restoration: Bílá Nisa Data
 
-### 4.1.1 UrbanStreamRestoration_Bila_Nisa.csv
-1. Number of variables: 18
+### 4.1.1 UrbanStreamRestoration_Bila_Nisa.csv & UrbanStreamRestoration_Bila_Nisa.gpgk
+1. Number of variables: 25
 
 2. Number of cases/rows: 573
 
@@ -325,7 +325,9 @@ N/A
 N/A
 
 6. Total file size:
-315 KB
+- Geopackage (.gpgk): 312 KB
+- Excel (.csv): 53 KB
+- Total: 365 KB 
 
 # 5. SHARING/ACCESS INFORMATION
 ## 5.1 Licenses/restrictions placed on the data:
@@ -350,6 +352,6 @@ N/A
 Yes
 
 ## 5.3 Recommended citation for this dataset:
-van Asch, F., Auer, F., Nova, M. J., Lin, R. & Kunigėlytė, U. N. (2025). Targeted Urban Stream Renewal: The Case of Bílá Nisa in Jablonec nad Nisou. TU Delft Faculty of Architecture & The Built Environment. Retrieved from https://github.com/sdgis-edu-tud/report-asa2025-groupd.git
+van Asch, F., Auer, F., Nova, M. J., Lin, R. & Kunigėlytė, U. N. (2025). Targeted Urban Stream Renewal: The Case of Bílá Nisa in Jablonec nad Nisou. TU Delft Faculty of Architecture & The Built Environment. Retrieved from https://doi.org/10.4121/924dc692-80e6-475f-8966-3bd672683f43
 
 This README.md file template was generated on 2022-04-19 by Claudiu Forgaci and Adele Therias according to the 4TU.ResearchData [Guidelines for creating a README file](https://data.4tu.nl/info/en/use/publish-cite/upload-your-data-in-our-data-repository) and the Cornell University template [Guide to writing "readme" style metadata](https://cornell.app.box.com/v/ReadmeTemplate) and is licensed under CC BY 4.0
