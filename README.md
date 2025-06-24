@@ -25,7 +25,7 @@
 Normalized Data on Biodiversity, Climate Adaptation & Quality of Life Along The Bílá Nisa Stream in Jablonec nad Nisou
 
 ## 1.2 Dataset description
-This dataset contains qualitative and quantitative data on biodiversity, climate adaptation and quality of life. The data is normalized (values range from 0-1, indicating good-bad, high-low and otherwise specified). The data is selected with a 100 meter radius along the Bílá Nisa stream. This data is then organized on a grid of 100x100 meters, with a more detailed grid of 50x50 meters further overlayed in the inner city borders of Jablonec nad Nisou.
+This dataset contains qualitative and quantitative data on biodiversity, climate adaptation and quality of life. The data is normalized (values range from 0-1, indicating good-bad, high-low and otherwise specified) and weighed based on how important the measure for the theme in the research project. The data is selected with a 100 meter radius along the Bílá Nisa stream. This data is then organized on a grid of 100x100 meters, with a more detailed grid of 50x50 meters further overlayed in the inner city borders of Jablonec nad Nisou.
 
 The research project was conducted for a TU Delft Urbanism MSc elective course Applied Spatial Analytics for Sustainable Urban Development (course code ARFW0501). The course is based on the ReBioClim project, funded by the Interreg Central Europe Program, which focuses on revitalizing small urban streams in European cities to enhance biodiversity, mitigate climate change effects, and improve urban living conditions. Running from June 2024 to January 2027, the project addresses the challenges of urban stream restoration in four Central European cities: Dresden, Jablonec nad Nisou, Poznan and Senica. The case study of this dataset is Jablonec nad Nisou.
 
@@ -137,14 +137,14 @@ There is one version of this dataset.
 ## 3.1 File List
 
 ### 3.1.1 Urban Stream Restoration: Bílá Nisa Data
-- "Bila_nisa_urban_stream_project.csv" and "Bila_nisa_urban_stream_project.gpgk": Normalized Data on Biodiversity, Climate Adaptation & Quality of Life Along The Bílá Nisa Stream in Jablonec nad Nisou
+- "Bila_nisa_urban_stream_project.xlsx" and "Bila_nisa_urban_stream_project.gpgk": Normalized Data on Biodiversity, Climate Adaptation & Quality of Life Along The Bílá Nisa Stream in Jablonec nad Nisou
 
 ## 3.2 Relationship between files:
 N/A
 
 ## 3.3 File formats and naming conventions
 ### 3.3.1 File formats
-Excel file: .CSV dataset
+Excel file: .XLSX
 Geopackage file: .GPGK
 
 ### 3.3.2 Naming conventions
@@ -170,49 +170,49 @@ N/A
 - Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
 
-"combined_layer_biodiversity_Floodplain_biotope_value"
+"combined_layer_Bio_updated_WA_floodplain_biotope_value"
 - Full name: Floodplain Biotope Value
 - Description: Data showeing cover areas with biotope value along the Bílá Nisa
 - Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
 
-"combined_layer_biodiversity_Unique_natural_habitats"
+"combined_layer_Bio_updated_WA_unique_habitats_updated"
 - Full name: Diversity of Natural Habitats
 - Description: Data showing the relative diversity of natural habitats along the Bílá Nisa
 - Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
 
-"combined_layer_biodiversity_Proportion_natural_habitat"
+"combined_layer_Bio_updated_WA_proportion_nat_hab"
 - Full name: Proportion of Natural Habitat Area
 - Description: Data showing the proportion of natural habitat area per cell along the Bílá Nisa
 - Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
 
-"combined_layer_biodiversity_Weighed_road_segment_length"
+"combined_layer_Bio_updated_WA_inv_WRSL_updated"
 - Full name: Weighed Road Segment Length
 - Description: Road lenght segment weighed for speed limit, showing relative environmental impact of road infrastructure along the Bílá Nisa
 - Type of variable: quantitative normalized
-- Unit of measurement: 0-1 (low to high)
+- Unit of measurement: 0-1 (high to low)
 
-"combined_layer_biodiversity_Built_up_area"
+"combined_layer_Bio_updated_WA_inv_built_up_area"
 - Full name: Proportion of Built-up Area
 - Description: Data showing the proportion of built area along the Bílá Nisa
 - Type of variable: quantitative normalized
-- Unit of measurement: 0-1 (low to high)
+- Unit of measurement: 0-1 (high to low)
 
-"combined_layer_biodiversity_Ecological_corridors"
+"combined_layer_Bio_updated_WA_ecological_corridors"
 - Full name: Ecological corridors
 - Description: Data showing the proportional area of ecological corridors along the Bílá Nisa
 - Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
 
-"combined_layer_biodiversity_Natural_floodplain_restoration_potential"
+"combined_layer_Bio_updated_WA_natural_floodplain_restoration_potential"
 - Full name: Potential for Natural Floodplain Restoration
 - Description: Potential for Natural Floodplain Restoration
 - Type of variable: quantitative normalized
 - Unit of measurement: 0-1 (low to high)
 
-"combined_layer_biodiversity_Zones_of_protected_natural_areas"
+"combined_layer_Bio_updated_WA_zones_protected_nat_areas"
 - Full name: Zones of Protected Natural Areas
 - Description: Area of Zoning of Protected Natural Areas
 - Type of variable: quantitative normalized
@@ -326,8 +326,8 @@ N/A
 
 6. Total file size:
 - Geopackage (.gpgk): 312 KB
-- Excel (.csv): 53 KB
-- Total: 365 KB 
+- Excel (.xlsx): 65 KB
+- Total: 377 KB 
 
 # 5. SHARING/ACCESS INFORMATION
 ## 5.1 Licenses/restrictions placed on the data:
